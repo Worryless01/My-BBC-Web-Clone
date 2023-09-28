@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    cursor: pointer;
+    margin: auto;
+    max-width: 30%;
+    height: 50rem;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.semi-container{
+    text-align: center;
+    padding-top: 2px;   
+}
+
+.header{
+    width: 90%;
+    text-align: center;
+    color: rgb(184, 0, 0);
+    font-size: 20px;
+}
+
+h1{
+    font-weight: 900;
+    padding: 5px;
+}
+
+/* .fname{
+    width: 100%;
+    display: flex;
+} */
+.label{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 13rem;
+}
+.names{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.names input{
+    width: 40%; 
+}
+#lab1{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    color: rgb(184, 0, 0);
+}
+#lab{
+    margin-left: -40px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    color: rgb(184, 0, 0);
+}
+.text{
+    text-align: start;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    color: rgb(184, 0, 0);
+}
+
+.pt1{
+    max-width: 85%;
+    padding: 10px;
+    height: 27px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(184, 0, 0);
+    color: rgb(184, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+.ptr{
+    width: 90%;
+    padding: 10px;
+    height: 27px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(184, 0, 0);
+    color: rgb(184, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+.names{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    margin-top: 60px;
+}
+
+button{
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(184, 0, 0);
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+}
+
+.info{
+    color: rgb(184, 0, 0);
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.info a{
+    text-decoration: none;
+    color: rgb(183, 46, 46);
+}
+
+.info a:hover{
+    border-bottom: 4px solid rgb(184, 0, 0);
+}
+
+.footer{
+   margin-top: 15px; 
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(184, 0, 0);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.footer a:hover{
+    border-bottom: 4px solid rgb(184, 0, 0);
+}
