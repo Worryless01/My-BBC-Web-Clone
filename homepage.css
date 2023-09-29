@@ -65,9 +65,29 @@ body{
     color: white;
     font-weight: 800;
 }
-
-.nav-li a:hover{
+.nav-li li:hover:first-child{
     border-bottom: 5px solid white;
+}
+.nav-li li:hover:nth-child(2){
+    border-bottom: 5px solid rgb(184, 0, 0);
+}
+.nav-li li:hover:nth-child(3){
+    border-bottom: 5px solid rgba(255, 255, 0, 0.864);
+}
+.nav-li li:hover:nth-child(4){
+    border-bottom: 5px solid #0052A1;
+}
+.nav-li li:hover:nth-child(5){
+    border-bottom: 5px solid #0052A1;
+}
+.nav-li li:hover:nth-child(6){
+    border-bottom: 5px solid #589E50;
+}
+.nav-li li:hover:nth-child(7){
+    border-bottom: 5px solid #002856;
+}
+.nav-li li:hover:nth-child(8){
+    border-bottom: 5px solid #482878;
 }
 
 
@@ -605,17 +625,3 @@ hr{
 .last-footer a:hover{
     border-bottom: 3px solid white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

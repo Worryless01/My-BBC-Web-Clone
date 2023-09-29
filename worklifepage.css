@@ -66,8 +66,26 @@ body{
     font-weight: 700;
 }
 
-.nav-li a:hover{
+.nav-li li:hover:first-child{
     border-bottom: 5px solid black;
+}
+.nav-li li:hover:nth-child(2){
+    border-bottom: 5px solid rgb(184, 0, 0);
+}
+.nav-li li:hover:nth-child(3){
+    border-bottom: 5px solid rgba(255, 255, 0, 0.864);
+}
+.nav-li li:hover:nth-child(4){
+    border-bottom: 5px solid #0052A1;
+}
+.nav-li li:hover:nth-child(5){
+    border-bottom: 5px solid #0052A1;
+}
+.nav-li li:hover:nth-child(6){
+    border-bottom: 5px solid #589E50;
+}
+.nav-li li:hover:nth-child(7){
+    border-bottom: 5px solid #002856;
 }
 
 .dot{
@@ -165,7 +183,7 @@ input::placeholder{
 }
 
 .semi-first-section{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.225), rgba(0,0,0,0.7)), url(p0ggnd82\ man.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.225), rgba(0,0,0,0.7)), url(./images/p0ggnd82\ man.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -373,7 +391,7 @@ input::placeholder{
 }
 
 .third-section{
-    background-image: url(w5.webp);
+    background-image: url(./images/w5.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 50.5vh;
@@ -419,7 +437,7 @@ input::placeholder{
 }
 
 .semi-fourth-section{
-    background-image: url(background.jpg); 
+    background-image: url(./images/background.jpg); 
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -429,7 +447,7 @@ input::placeholder{
     height: 6%;
 }
 .semi-fifth-section{
-    background-image: linear-gradient(rgba(14, 14, 14, 0) 0%, rgb(14, 14, 14) 100%),    linear-gradient(300deg, rgba(0, 0, 0, 0.534) 0%, rgb(14, 14, 14) 100%), url(background.1jpg.jpg); 
+    background-image: linear-gradient(rgba(14, 14, 14, 0) 0%, rgb(14, 14, 14) 100%),    linear-gradient(300deg, rgba(0, 0, 0, 0.534) 0%, rgb(14, 14, 14) 100%), url(./images/background.1jpg.jpg); 
     background-repeat: no-repeat; 
     background-position: right;
     color: white;
@@ -443,6 +461,7 @@ input::placeholder{
 }
 
 .semi-fourth-section h1{
+    cursor: pointer;
     font-weight: 650;
     letter-spacing: 5px;
     font-size: 20px;
